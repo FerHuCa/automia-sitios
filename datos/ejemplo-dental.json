@@ -1,0 +1,49 @@
+{
+  "slug": "ejemplo-dental",
+  "ejemplo": true,
+  "creada": "2026-11-15",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Dental Ejemplo",
+  "zona": "Centro, Toluca",
+  "descripcion": "Atención para toda la familia, con cita previa.",
+  "telefono": "7220000000",
+  "whatsapp": "527220000000",
+  "direccion": "Av. de Ejemplo 123, Col. Centro, Toluca, Estado de México",
+  "referencia": "Planta alta, a media cuadra del parque",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Centro%2C+Toluca%2C+Estado+de+M%C3%A9xico",
+  "maps_consulta": "Centro, Toluca, Estado de México",
+  "calificacion": "4.8",
+  "resenas": "132",
+  "servicios": [
+    "Limpieza dental",
+    "Resinas y curaciones",
+    "Ortodoncia",
+    "Blanqueamiento",
+    "Endodoncia",
+    "Odontopediatría",
+    "Prótesis y coronas",
+    "Extracciones"
+  ],
+  "horario": {
+    "lun": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "mar": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "mie": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "jue": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "vie": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "sab": [["09:00", "14:00"]],
+    "dom": []
+  },
+  "preguntas": [
+    {
+      "p": "¿Aceptan pago con tarjeta?",
+      "r": "Sí, se aceptan tarjetas de crédito y débito.",
+      "claves": ["tarjeta", "pago", "pagar", "efectivo"]
+    },
+    {
+      "p": "¿Atienden niños?",
+      "r": "Sí, hay atención de odontopediatría.",
+      "claves": ["niño", "niña", "hijo", "hija", "bebé"]
+    }
+  ]
+}
