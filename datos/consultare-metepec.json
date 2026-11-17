@@ -1,0 +1,56 @@
+{
+  "slug": "consultare-metepec",
+  "creada": "2026-11-17",
+  "giro": "veterinaria",
+  "giro_texto": "Hospital veterinario",
+  "nombre": "Consultare Hospital Veterinario",
+  "zona": "San Gaspar Tlahuelilpan, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7223274429",
+  "direccion": "Av. Estado de México 3913, San Gaspar Tlahuelilpan, Metepec, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Consultare%20Hospital%20Veterinario%20Metepec%2C%20Av.%20Estado%20de%20M%C3%A9xico%203913",
+  "maps_consulta": "Consultare Hospital Veterinario, Av. Estado de México 3913, San Gaspar Tlahuelilpan, Metepec, Méx.",
+  "calificacion": "4.7",
+  "resenas": "169",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:30",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

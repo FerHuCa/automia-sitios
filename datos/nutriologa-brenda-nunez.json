@@ -1,0 +1,61 @@
+{
+  "slug": "nutriologa-brenda-nunez",
+  "creada": "2026-11-17",
+  "giro": "nutricion",
+  "giro_texto": "Nutrióloga",
+  "nombre": "Nutrióloga Brenda Núñez",
+  "zona": "Hipódromo Condesa, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5514986180",
+  "direccion": "Tlaxcala 151, Hipódromo Condesa, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=NUTRI%C3%93LOGA%20Brenda%20N%C3%BA%C3%B1ez%2C%20Tlaxcala%20151",
+  "maps_consulta": "Nutrióloga Brenda Núñez, Tlaxcala 151, Hipódromo Condesa, CDMX",
+  "calificacion": "5",
+  "resenas": "117",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "dom": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ]
+  },
+  "preguntas": []
+}

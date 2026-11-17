@@ -1,0 +1,56 @@
+{
+  "slug": "dentalin-vh",
+  "creada": "2026-11-17",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Dentalin VH",
+  "zona": "Vista Hermosa, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7221033975",
+  "direccion": "Deportiva 215, El Cerrillo Vista Hermosa, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Dentalin%20VH%20Toluca%2C%20Deportiva%20215",
+  "maps_consulta": "Dentalin VH, Deportiva 215, El Cerrillo Vista Hermosa, Toluca, Méx.",
+  "calificacion": "4.7",
+  "resenas": "63",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

@@ -1,0 +1,56 @@
+{
+  "slug": "nidia-toledo-psicoterapia",
+  "creada": "2026-11-17",
+  "giro": "psicologia",
+  "giro_texto": "Psicoterapeuta",
+  "nombre": "Psicoterapeuta Nidia Toledo",
+  "zona": "Los Girasoles, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5651720302",
+  "direccion": "Calzada del Hueso 550, Los Girasoles, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Psicoterapeuta%20Nidia%20Toledo%20Calzada%20del%20hueso%20550",
+  "maps_consulta": "Psicoterapeuta Nidia Toledo, Calzada del Hueso 550, Los Girasoles, CDMX",
+  "calificacion": "5",
+  "resenas": "63",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "18:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "18:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

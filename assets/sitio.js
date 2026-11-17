@@ -254,7 +254,11 @@
       return ["Sí, " + D.nombre + " ofrece " + servicio.toLowerCase() + ". Para detalles, pregunte directo. ", c || ""];
     }
     if (!esDuracion && tiene(q, ["servicio", "hacen", "ofrece", "tratamiento", "manejan", "realizan"])) {
-      return ["Estos son los servicios publicados:\n" + (D.servicios || []).map(function (s) { return "• " + s; }).join("\n")];
+      if (!D.servicios || !D.servicios.length) {
+        c = contacto("Hola, quiero saber qué servicios ofrecen.");
+        return ["La lista de servicios no está publicada. Lo mejor es preguntarlo directo a " + D.nombre + ". ", c || ""];
+      }
+      return ["Estos son los servicios publicados:\n" + D.servicios.map(function (s) { return "• " + s; }).join("\n")];
     }
 
     // 7. Contacto.

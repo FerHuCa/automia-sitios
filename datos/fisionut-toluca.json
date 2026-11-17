@@ -1,0 +1,61 @@
+{
+  "slug": "fisionut-toluca",
+  "creada": "2026-11-17",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapia y rehabilitación",
+  "nombre": "FisioNut",
+  "zona": "Santa Cruz Atzcapotzaltongo, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7222845837",
+  "direccion": "Tejocote 102, Santa Cruz Atzcapotzaltongo, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=FisioNut%20Fisioterapia%20Toluca%2C%20Tejocote%20102",
+  "maps_consulta": "FisioNut, Tejocote 102, Santa Cruz Atzcapotzaltongo, Toluca, Méx.",
+  "calificacion": "5",
+  "resenas": "80",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "dom": [
+      [
+        "09:00",
+        "17:30"
+      ]
+    ]
+  },
+  "preguntas": []
+}

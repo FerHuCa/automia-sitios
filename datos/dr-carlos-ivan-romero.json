@@ -1,0 +1,51 @@
+{
+  "slug": "dr-carlos-ivan-romero",
+  "creada": "2026-11-17",
+  "giro": "nutricion",
+  "giro_texto": "Nutriólogo",
+  "nombre": "Dr. Carlos Iván Romero",
+  "zona": "Polanco, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5518966137",
+  "direccion": "Av. Ejército Nacional 884, Polanco, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Dr.%20Carlos%20Iv%C3%A1n%20Romero%20nutri%C3%B3logo%20Polanco%2C%20Ej%C3%A9rcito%20Nacional%20884",
+  "maps_consulta": "Dr. Carlos Iván Romero, Av. Ejército Nacional 884, Polanco, CDMX",
+  "calificacion": "5",
+  "resenas": "107",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "sab": [],
+    "dom": []
+  },
+  "preguntas": []
+}

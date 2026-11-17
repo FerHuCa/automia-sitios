@@ -1,0 +1,51 @@
+{
+  "slug": "kinetik-fisioterapia",
+  "creada": "2026-11-17",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapia especializada",
+  "nombre": "KINETIK Fisioterapia Especializada",
+  "zona": "La Merced, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7221075881",
+  "direccion": "Eduardo González y Pichardo 206, La Merced, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=KINETIK%20Fisioterapia%20Especializada%20Toluca%2C%20Eduardo%20Gonzalez%20y%20Pichardo%20206",
+  "maps_consulta": "KINETIK Fisioterapia Especializada, Eduardo González y Pichardo 206, La Merced, Toluca, Méx.",
+  "calificacion": "4.9",
+  "resenas": "126",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "sab": [],
+    "dom": []
+  },
+  "preguntas": []
+}

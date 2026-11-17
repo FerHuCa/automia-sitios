@@ -1,0 +1,61 @@
+{
+  "slug": "grafton-optica",
+  "creada": "2026-11-17",
+  "giro": "optica",
+  "giro_texto": "Óptica",
+  "nombre": "Grafton Óptica",
+  "zona": "Roma Norte, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5538542968",
+  "direccion": "Tampico 21, Roma Norte, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Grafton%20%C3%93ptica%20Roma%20Norte%2C%20Tampico%2021",
+  "maps_consulta": "Grafton Óptica, Tampico 21, Roma Norte, CDMX",
+  "calificacion": "5",
+  "resenas": "51",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "dom": [
+      [
+        "11:00",
+        "17:00"
+      ]
+    ]
+  },
+  "preguntas": []
+}

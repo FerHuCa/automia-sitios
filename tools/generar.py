@@ -45,7 +45,7 @@ MESES = [
 ]
 
 OBLIGATORIOS = ["slug", "creada", "giro", "giro_texto", "nombre", "zona",
-                "descripcion", "direccion", "maps_url", "servicios"]
+                "descripcion", "direccion", "maps_url"]
 
 ICONO_CHAT = (
     '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
@@ -147,6 +147,16 @@ def bloque_resenas(d):
             ).format(cal=e(d["calificacion"]), n=e(d["resenas"]), url=e(d["maps_url"]))
 
 
+def seccion_servicios(d):
+    # Si el perfil no publica servicios, la sección no aparece.
+    if not d.get("servicios"):
+        return ""
+    items = "\n".join(f"        <li>{e(s)}</li>" for s in d["servicios"])
+    return ('  <section class="seccion" id="servicios">\n    <div class="contenedor">\n'
+            '      <h2>Servicios</h2>\n      <ul class="servicios">\n'
+            f'{items}\n      </ul>\n    </div>\n  </section>\n')
+
+
 def bloque_horario(d):
     horario = d.get("horario") or {}
     if not any(horario.values()):
@@ -217,7 +227,7 @@ def generar(ruta):
         "boton_contacto": boton_contacto(d),
         "bloque_estado": bloque_estado(d),
         "bloque_resenas": bloque_resenas(d),
-        "servicios": "\n".join(f"        <li>{e(s)}</li>" for s in d["servicios"]),
+        "seccion_servicios": seccion_servicios(d),
         "bloque_horario": bloque_horario(d),
         "direccion": e(d["direccion"]),
         "referencia": referencia,

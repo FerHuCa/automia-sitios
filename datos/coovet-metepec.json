@@ -1,0 +1,61 @@
+{
+  "slug": "coovet-metepec",
+  "creada": "2026-11-17",
+  "giro": "veterinaria",
+  "giro_texto": "Médica veterinaria",
+  "nombre": "Médica Veterinaria Coovet",
+  "zona": "San Francisco Coaxusco, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7225087793",
+  "direccion": "Salvador Díaz Mirón 914, San Francisco Coaxusco, Metepec, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=M%C3%A9dica%20Veterinaria%20Coovet%20Metepec%2C%20Salvador%20Diaz%20Mir%C3%B3n%20914",
+  "maps_consulta": "Médica Veterinaria Coovet, Salvador Díaz Mirón 914, San Francisco Coaxusco, Metepec, Méx.",
+  "calificacion": "4.5",
+  "resenas": "265",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": [
+      [
+        "11:00",
+        "15:00"
+      ]
+    ]
+  },
+  "preguntas": []
+}
