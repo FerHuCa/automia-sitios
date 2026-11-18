@@ -34,6 +34,9 @@ GIROS = {
     "optica": "#1e2a78",
 }
 
+# Paleta opcional que reemplaza el color del giro ("paleta": "automia" en datos).
+PALETAS = {"automia": "#1E263B"}
+
 DIAS = [
     ("lun", "Lunes"), ("mar", "Martes"), ("mie", "Miércoles"), ("jue", "Jueves"),
     ("vie", "Viernes"), ("sab", "Sábado"), ("dom", "Domingo"),
@@ -95,6 +98,10 @@ def validar(d, origen):
         raise SystemExit(f"{origen}: el slug solo lleva minúsculas, números y guiones")
     if d["slug"] != Path(origen).stem:
         raise SystemExit(f"{origen}: el slug debe ser igual al nombre del archivo")
+    if d.get("paleta") and d["paleta"] not in PALETAS:
+        raise SystemExit(f"{origen}: paleta '{d['paleta']}' no existe. Opciones: {', '.join(PALETAS)}")
+    if d.get("instagram") and not re.fullmatch(r"[A-Za-z0-9._]+", d["instagram"]):
+        raise SystemExit(f"{origen}: instagram lleva solo el usuario, sin @ ni liga")
     for campo in ("telefono", "whatsapp"):
         if d.get(campo) and not re.fullmatch(r"\d+", d[campo]):
             raise SystemExit(f"{origen}: {campo} lleva solo dígitos")
@@ -109,10 +116,14 @@ def validar(d, origen):
     date.fromisoformat(d["creada"])
 
 
+def color_marca(d):
+    return PALETAS[d["paleta"]] if d.get("paleta") else GIROS[d["giro"]]
+
+
 def favicon(d):
     letra = e(d["nombre"].strip()[0].upper())
     svg = (f"<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'>"
-           f"<rect width='64' height='64' rx='14' fill='{GIROS[d['giro']]}'/>"
+           f"<rect width='64' height='64' rx='14' fill='{color_marca(d)}'/>"
            f"<text x='32' y='45' font-family='Arial,sans-serif' font-size='38' font-weight='700' "
            f"text-anchor='middle' fill='white'>{letra}</text></svg>")
     return "data:image/svg+xml," + quote(svg)
@@ -208,16 +219,20 @@ def generar(ruta):
     consulta = d.get("maps_consulta") or f"{d['nombre']}, {d['direccion']}"
     referencia = f'<span class="direccion-ref">{e(d["referencia"])}</span>' if d.get("referencia") else ""
     pie_tel = f'<p>Tel. {e(d["telefono_visible"])}</p>' if d.get("telefono") else ""
+    if d.get("instagram"):
+        pie_tel += (f'\n    <p>Instagram: <a href="https://www.instagram.com/{e(d["instagram"])}/" '
+                    f'target="_blank" rel="noopener">@{e(d["instagram"])}</a></p>')
 
     # Lo que lee el asistente en el navegador. Solo datos públicos del negocio.
     publicos = {k: d[k] for k in (
         "nombre", "direccion", "referencia", "maps_url", "telefono", "telefono_visible",
-        "whatsapp", "servicios", "horario", "preguntas") if d.get(k)}
+        "whatsapp", "instagram", "servicios", "horario", "preguntas") if d.get(k)}
     datos_json = json.dumps(publicos, ensure_ascii=False).replace("</", "<\\/")
 
     valores = {
         "giro": e(d["giro"]),
-        "color_marca": GIROS[d["giro"]],
+        "color_marca": color_marca(d),
+        "attr_paleta": f' data-paleta="{e(d["paleta"])}"' if d.get("paleta") else "",
         "favicon": favicon(d),
         "giro_texto": e(d["giro_texto"]),
         "nombre": e(d["nombre"]),

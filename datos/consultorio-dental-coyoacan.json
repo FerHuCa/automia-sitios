@@ -1,0 +1,58 @@
+{
+  "slug": "consultorio-dental-coyoacan",
+  "creada": "2026-11-18",
+  "giro": "dental",
+  "giro_texto": "Dentista",
+  "nombre": "Consultorio Dental Coyoacán",
+  "zona": "Del Carmen, Coyoacán, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7295436233",
+  "whatsapp": "527295436233",
+  "direccion": "Berlín 136, Del Carmen, Coyoacán, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Consultorio%20Dental%20Coyoac%C3%A1n%2C%20Berl%C3%ADn%20136",
+  "calificacion": "5",
+  "resenas": "38",
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "15:30"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "15:30"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  },
+  "paleta": "automia",
+  "maps_consulta": "Consultorio Dental Coyoacán, Berlín 136, Del Carmen, Coyoacán, CDMX",
+  "servicios": [],
+  "preguntas": []
+}

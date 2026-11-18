@@ -1,0 +1,58 @@
+{
+  "slug": "fisioforce-toluca",
+  "creada": "2026-11-18",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapeuta",
+  "nombre": "FisioForce, Fisioterapia y entrenamiento personalizado",
+  "zona": "Barrio de la Merced, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7223932850",
+  "instagram": "fisioforce.oficial",
+  "direccion": "Av. J. M. Morelos 1003, Barrio de la Merced, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=FisioForce%20Fisioterapia%20Toluca%2C%20Av.%20J.%20M.%20Morelos%201003",
+  "calificacion": "5",
+  "resenas": "67",
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "13:00"
+      ]
+    ],
+    "dom": []
+  },
+  "paleta": "automia",
+  "maps_consulta": "FisioForce, Fisioterapia y entrenamiento personalizado, Av. J. M. Morelos 1003, Barrio de la Merced, Toluca",
+  "servicios": [],
+  "preguntas": []
+}

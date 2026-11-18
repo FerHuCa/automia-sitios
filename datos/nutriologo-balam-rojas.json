@@ -1,0 +1,33 @@
+{
+  "slug": "nutriologo-balam-rojas",
+  "creada": "2026-11-18",
+  "giro": "nutricion",
+  "giro_texto": "Nutriólogo",
+  "nombre": "Nutriólogo Clínico Balam Rojas",
+  "zona": "Roma Sur, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5540194718",
+  "instagram": "balam_rojas_nutricion_clinica",
+  "direccion": "Tepic 139, Roma Sur, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutri%C3%B3logo%20Cl%C3%ADnico%20Balam%20Rojas%2C%20Tepic%20139",
+  "calificacion": "5",
+  "resenas": "26",
+  "horario": {
+    "lun": [],
+    "mar": [],
+    "mie": [],
+    "jue": [],
+    "vie": [],
+    "sab": [
+      [
+        "08:00",
+        "13:00"
+      ]
+    ],
+    "dom": []
+  },
+  "paleta": "automia",
+  "maps_consulta": "Nutriólogo Clínico Balam Rojas, Tepic 139, Roma Sur, CDMX",
+  "servicios": [],
+  "preguntas": []
+}

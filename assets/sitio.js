@@ -262,9 +262,11 @@
     }
 
     // 7. Contacto.
-    if (tiene(q, ["telefono", "numero", "whatsapp", "llamar", "contact", "marcar"])) {
+    if (tiene(q, ["telefono", "numero", "whatsapp", "llamar", "contact", "marcar", "instagram", "redes"])) {
       c = contacto();
-      return [D.telefono_visible ? "El teléfono es " + D.telefono_visible + ". " : "", c || ""];
+      return [D.telefono_visible ? "El teléfono es " + D.telefono_visible + ". " : "", c || "",
+        D.instagram ? ". También están en Instagram como " : "",
+        D.instagram ? { texto: "@" + D.instagram, href: "https://www.instagram.com/" + D.instagram + "/" } : ""];
     }
 
     // 8. Cortesía.
