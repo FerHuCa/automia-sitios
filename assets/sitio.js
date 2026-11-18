@@ -305,6 +305,41 @@
     abrir.focus();
   }
 
+  // El botón flotante se quita de en medio cuando quedaría encima del horario
+  // o de la tarjeta de estado (pasa sobre todo en celular). Al seguir bajando,
+  // vuelve a aparecer. "Hacer otra pregunta" siempre abre el asistente.
+  var protegidos = document.querySelectorAll(".horario, [data-estado-caja]");
+  var pendiente = false;
+
+  var HOLGURA = 8; // px de aire alrededor del botón
+
+  function seTocan(a, b) {
+    return a.left - HOLGURA < b.right && a.right + HOLGURA > b.left &&
+      a.top - HOLGURA < b.bottom && a.bottom + HOLGURA > b.top;
+  }
+
+  function acomodarBoton() {
+    pendiente = false;
+    if (abrir.hidden) return;
+    var caja = abrir.getBoundingClientRect();
+    var tapa = Array.prototype.some.call(protegidos, function (el) {
+      return seTocan(caja, el.getBoundingClientRect());
+    });
+    abrir.classList.toggle("asistente-abrir-oculto", tapa);
+  }
+
+  function programarAcomodo() {
+    if (pendiente) return;
+    pendiente = true;
+    window.requestAnimationFrame(acomodarBoton);
+  }
+
+  window.addEventListener("scroll", programarAcomodo, { passive: true });
+  window.addEventListener("resize", programarAcomodo);
+  window.addEventListener("load", programarAcomodo);
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(programarAcomodo);
+  acomodarBoton();
+
   abrir.addEventListener("click", abrirPanel);
   panel.querySelector("[data-cerrar]").addEventListener("click", cerrarPanel);
   panel.addEventListener("keydown", function (ev) { if (ev.key === "Escape") cerrarPanel(); });

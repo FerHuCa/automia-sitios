@@ -313,6 +313,15 @@ img, iframe, svg { display: block; max-width: 100%; }
   z-index: 20;
   box-shadow: 0 6px 20px rgb(0 0 0 / 0.25);
   border-color: #fff;
+  transition: opacity 0.2s ease, visibility 0.2s;
+}
+
+/* Se oculta mientras quedaría encima del horario o del estado (ver sitio.js).
+   Sin transform: el botón debe medir lo mismo oculto que visible. */
+.asistente-abrir-oculto {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .asistente {
@@ -448,6 +457,7 @@ img, iframe, svg { display: block; max-width: 100%; }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .asistente-abrir { transition: none; }
 }
 
 /* Páginas sueltas: raíz y 404 */
