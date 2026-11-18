@@ -1,0 +1,47 @@
+{
+  "slug": "nutriologa-mariana-ramirez",
+  "creada": "2026-11-18",
+  "giro": "nutricion",
+  "giro_texto": "Nutrióloga",
+  "nombre": "Nutrióloga Mariana Ramírez",
+  "zona": "Polanco V Sección, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5657908199",
+  "direccion": "Av. Homero 527, Polanco V Sección, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutri%C3%B3loga%20Mariana%20Ram%C3%ADrez%2C%20Av.%20Homero%20527",
+  "maps_consulta": "Nutrióloga Mariana Ramírez, Av. Homero 527, Polanco V Sección, CDMX",
+  "calificacion": "5",
+  "resenas": "120",
+  "servicios": [],
+  "horario": {
+    "lun": [],
+    "mar": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mie": [],
+    "jue": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "08:00",
+        "14:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": [],
+  "whatsapp": "525657908199"
+}

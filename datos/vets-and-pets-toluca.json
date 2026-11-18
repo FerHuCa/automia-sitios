@@ -1,0 +1,56 @@
+{
+  "slug": "vets-and-pets-toluca",
+  "creada": "2026-11-18",
+  "giro": "veterinaria",
+  "giro_texto": "Clínica veterinaria",
+  "nombre": "Vets and Pets",
+  "zona": "Independencia, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7222525599",
+  "direccion": "Electrificación 202, Independencia, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Vets%20and%20Pets%20Toluca%2C%20Electrificaci%C3%B3n%20202",
+  "maps_consulta": "Vets and Pets, Electrificación 202, Independencia, Toluca, Méx.",
+  "calificacion": "4.7",
+  "resenas": "63",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

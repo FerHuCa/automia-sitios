@@ -1,0 +1,56 @@
+{
+  "slug": "nutriologa-viridiana-padilla",
+  "creada": "2026-11-18",
+  "giro": "nutricion",
+  "giro_texto": "Nutrióloga",
+  "nombre": "Nutrióloga Viridiana Padilla",
+  "zona": "San Salvador Tizatlalli, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7226165606",
+  "direccion": "Plaza Bellavista, San Salvador Tizatlalli, Metepec, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutriologa%20Viridiana%20Padilla%20Plaza%20Bellavista%20Metepec",
+  "maps_consulta": "Nutrióloga Viridiana Padilla, Plaza Bellavista, San Salvador Tizatlalli, Metepec, Méx.",
+  "calificacion": "5",
+  "resenas": "57",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

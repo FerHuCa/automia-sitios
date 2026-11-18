@@ -1,0 +1,56 @@
+{
+  "slug": "yadah-opticas-toluca",
+  "creada": "2026-11-18",
+  "giro": "optica",
+  "giro_texto": "Óptica",
+  "nombre": "Yadah Ópticas",
+  "zona": "Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7293801149",
+  "direccion": "Calle Andrés Quintana Roo 302, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Yadah%20%C3%93pticas%20Toluca%2C%20Calle%20Andr%C3%A9s%20Quintana%20Roo%20302",
+  "maps_consulta": "Yadah Ópticas, Calle Andrés Quintana Roo 302, Toluca, Méx.",
+  "calificacion": "5",
+  "resenas": "149",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

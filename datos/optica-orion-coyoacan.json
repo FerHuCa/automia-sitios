@@ -1,0 +1,56 @@
+{
+  "slug": "optica-orion-coyoacan",
+  "creada": "2026-11-18",
+  "giro": "optica",
+  "giro_texto": "Óptica",
+  "nombre": "Óptica Orión",
+  "zona": "Santo Domingo, Coyoacán, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5537206429",
+  "direccion": "Papalotl 105, Santo Domingo, Coyoacán, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%C3%93ptica%20Ori%C3%B3n%20Coyoac%C3%A1n%2C%20Papalotl%20105",
+  "maps_consulta": "Óptica Orión, Papalotl 105, Santo Domingo, Coyoacán, CDMX",
+  "calificacion": "4.9",
+  "resenas": "57",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "17:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

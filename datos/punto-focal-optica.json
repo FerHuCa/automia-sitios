@@ -1,0 +1,61 @@
+{
+  "slug": "punto-focal-optica",
+  "creada": "2026-11-18",
+  "giro": "optica",
+  "giro_texto": "Óptica",
+  "nombre": "Punto Focal Óptica",
+  "zona": "Roma Norte, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5551623775",
+  "direccion": "Colima 25, Roma Norte, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Punto%20Focal%20%C3%93ptica%2C%20Colima%2025",
+  "maps_consulta": "Punto Focal Óptica, Colima 25, Roma Norte, CDMX",
+  "calificacion": "4.7",
+  "resenas": "84",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "12:00",
+        "17:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "dom": [
+      [
+        "12:00",
+        "17:00"
+      ]
+    ]
+  },
+  "preguntas": []
+}

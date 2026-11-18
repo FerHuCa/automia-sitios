@@ -1,0 +1,56 @@
+{
+  "slug": "nutriologa-brenda-rodriguez",
+  "creada": "2026-11-18",
+  "giro": "nutricion",
+  "giro_texto": "Nutrióloga",
+  "nombre": "Nutrióloga Brenda Rodríguez",
+  "zona": "Morelos Segunda Sección, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7223410687",
+  "direccion": "Felipe Villanueva 117, Morelos Segunda Sección, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutri%C3%B3loga%20Brenda%20Rodr%C3%ADguez%20Toluca%2C%20Felipe%20Villanueva%20117",
+  "maps_consulta": "Nutrióloga Brenda Rodríguez, Felipe Villanueva 117, Morelos Segunda Sección, Toluca, Méx.",
+  "calificacion": "5",
+  "resenas": "44",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "08:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}

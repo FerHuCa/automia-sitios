@@ -1,0 +1,61 @@
+{
+  "slug": "cimevet-toluca",
+  "creada": "2026-11-18",
+  "giro": "veterinaria",
+  "giro_texto": "Clínica veterinaria",
+  "nombre": "Clínica Veterinaria Cimevet",
+  "zona": "Santiago Miltepec, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7241166817",
+  "direccion": "Diego Rivera 421, Delegación Santiago Miltepec, Toluca, Méx.",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Veterinaria%20Cimevet%20Toluca%2C%20Diego%20Rivera%20421",
+  "maps_consulta": "Clínica Veterinaria Cimevet, Diego Rivera 421, Delegación Santiago Miltepec, Toluca, Méx.",
+  "calificacion": "4.6",
+  "resenas": "56",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "18:00"
+      ]
+    ],
+    "dom": [
+      [
+        "10:00",
+        "18:00"
+      ]
+    ]
+  },
+  "preguntas": []
+}

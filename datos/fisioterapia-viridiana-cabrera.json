@@ -1,0 +1,46 @@
+{
+  "slug": "fisioterapia-viridiana-cabrera",
+  "creada": "2026-11-18",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapia y rehabilitación física",
+  "nombre": "Fisioterapia Viridiana Cabrera",
+  "zona": "Roma Sur, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5526925686",
+  "direccion": "Tuxpan 2, Roma Sur, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Fisioterapia%20y%20rehabilitaci%C3%B3n%20f%C3%ADsica%20Viridiana%20Cabrera%2C%20Tuxpan%202",
+  "maps_consulta": "Fisioterapia Viridiana Cabrera, Tuxpan 2, Roma Sur, CDMX",
+  "calificacion": "5",
+  "resenas": "40",
+  "servicios": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "18:30"
+      ]
+    ],
+    "mar": [],
+    "mie": [
+      [
+        "10:00",
+        "18:30"
+      ]
+    ],
+    "jue": [],
+    "vie": [
+      [
+        "10:00",
+        "18:30"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "17:00"
+      ]
+    ],
+    "dom": []
+  },
+  "preguntas": []
+}
