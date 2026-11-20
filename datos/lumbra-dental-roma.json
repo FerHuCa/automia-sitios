@@ -1,0 +1,58 @@
+{
+  "slug": "lumbra-dental-roma",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Dentista",
+  "nombre": "Lumbra Dental Roma",
+  "zona": "Roma Norte, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5611391093",
+  "whatsapp": "525611391093",
+  "direccion": "Querétaro 227, Roma Norte, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Lumbra%20Dental%20Roma%2C%20Quer%C3%A9taro%20227",
+  "calificacion": "4.6",
+  "resenas": "26",
+  "paleta": "automia",
+  "maps_consulta": "Lumbra Dental Roma, Querétaro 227, Roma Norte, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "17:00"
+      ]
+    ],
+    "dom": []
+  }
+}

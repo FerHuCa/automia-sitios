@@ -1,0 +1,58 @@
+{
+  "slug": "cedral-veterinaria",
+  "creada": "2026-11-19",
+  "giro": "veterinaria",
+  "giro_texto": "Clínica veterinaria",
+  "nombre": "CEDRAL Clínica Veterinaria",
+  "zona": "Abdías García Soto, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5526773050",
+  "whatsapp": "525526773050",
+  "direccion": "Carretera México-Toluca 4008, Abdías García Soto, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=CEDRAL%20CL%C3%8DNICA%20VETERINARIA%20Carretera%20M%C3%A9xico%20Toluca%204008",
+  "calificacion": "4.8",
+  "resenas": "28",
+  "paleta": "automia",
+  "maps_consulta": "CEDRAL Clínica Veterinaria, Carretera México-Toluca 4008, Abdías García Soto, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "17:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "17:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "17:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "17:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "17:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

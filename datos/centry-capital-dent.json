@@ -1,0 +1,58 @@
+{
+  "slug": "centry-capital-dent",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Centry Capital Dent",
+  "zona": "San Francisco Cuaxusco, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5512758655",
+  "whatsapp": "525512758655",
+  "direccion": "Camino Antiguo a Metepec 209, San Francisco Cuaxusco, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Centry%20Capital%20Dent%20Metepec%2C%20Camino%20antiguo%20a%20Metepec%20209",
+  "calificacion": "5",
+  "resenas": "35",
+  "paleta": "automia",
+  "maps_consulta": "Centry Capital Dent, Camino Antiguo a Metepec 209, San Francisco Cuaxusco, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "17:00"
+      ]
+    ],
+    "dom": []
+  }
+}

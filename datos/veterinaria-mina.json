@@ -1,0 +1,58 @@
+{
+  "slug": "veterinaria-mina",
+  "creada": "2026-11-19",
+  "giro": "veterinaria",
+  "giro_texto": "Veterinaria",
+  "nombre": "Veterinaria Mina",
+  "zona": "Roma Norte, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5573689117",
+  "whatsapp": "525573689117",
+  "direccion": "Chiapas 27, Roma Norte, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Veterinaria%20Mina%20Roma%20Norte%2C%20Chiapas%2027",
+  "calificacion": "4.6",
+  "resenas": "28",
+  "paleta": "automia",
+  "maps_consulta": "Veterinaria Mina, Chiapas 27, Roma Norte, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:30",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:30",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:30",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:30",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:30",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  }
+}

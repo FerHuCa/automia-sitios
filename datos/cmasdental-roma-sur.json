@@ -1,0 +1,63 @@
+{
+  "slug": "cmasdental-roma-sur",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Cmasdentalmx",
+  "zona": "Roma Sur, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5631093029",
+  "whatsapp": "525631093029",
+  "direccion": "Tuxpan 8, Roma Sur, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Cmasdentalmx%20Roma%20Sur%2C%20Tuxpan%208",
+  "calificacion": "5",
+  "resenas": "38",
+  "paleta": "automia",
+  "maps_consulta": "Cmasdentalmx, Tuxpan 8, Roma Sur, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "dom": [
+      [
+        "09:00",
+        "15:00"
+      ]
+    ]
+  }
+}

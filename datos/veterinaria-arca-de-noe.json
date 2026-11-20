@@ -1,0 +1,63 @@
+{
+  "slug": "veterinaria-arca-de-noe",
+  "creada": "2026-11-19",
+  "giro": "veterinaria",
+  "giro_texto": "Veterinaria",
+  "nombre": "Veterinaria Arca de Noé",
+  "zona": "Los Reyes, Coyoacán, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5530576312",
+  "whatsapp": "525530576312",
+  "direccion": "Del Rosal 15D, Los Reyes, Coyoacán, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Veterinaria%20Arca%20de%20Noe%20Coyoac%C3%A1n%2C%20Del%20Rosal%2015d",
+  "calificacion": "4.4",
+  "resenas": "87",
+  "paleta": "automia",
+  "maps_consulta": "Veterinaria Arca de Noé, Del Rosal 15D, Los Reyes, Coyoacán, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "16:00"
+      ]
+    ],
+    "dom": [
+      [
+        "09:00",
+        "14:00"
+      ]
+    ]
+  }
+}

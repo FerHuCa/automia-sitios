@@ -1,0 +1,63 @@
+{
+  "slug": "aldiavet-metepec",
+  "creada": "2026-11-19",
+  "giro": "veterinaria",
+  "giro_texto": "Clínica veterinaria",
+  "nombre": "Aldiavet",
+  "zona": "Lázaro Cárdenas, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "4492289698",
+  "whatsapp": "524492289698",
+  "direccion": "Plaza Portia, Circuito Exterior Metropolitano 1005, Lázaro Cárdenas, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Aldiavet%20Metepec%2C%20Plaza%20Portia%20Circuito%20Exterior%20Metropolitano%201005",
+  "calificacion": "5",
+  "resenas": "120",
+  "paleta": "automia",
+  "maps_consulta": "Aldiavet, Plaza Portia, Circuito Exterior Metropolitano 1005, Lázaro Cárdenas, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "dom": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ]
+  }
+}

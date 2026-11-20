@@ -1,0 +1,58 @@
+{
+  "slug": "del-angel-odontologia",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Del Ángel Odontología Especializada",
+  "zona": "Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7227905137",
+  "whatsapp": "527227905137",
+  "direccion": "C. Laura Méndez de Cuenca 201, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Del%20%C3%81ngel%20Odontolog%C3%ADa%20Especializada%20Toluca%2C%20C.%20Laura%20M%C3%A9ndez%20de%20Cuenca%20201",
+  "calificacion": "4.9",
+  "resenas": "34",
+  "paleta": "automia",
+  "maps_consulta": "Del Ángel Odontología Especializada, C. Laura Méndez de Cuenca 201, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  }
+}

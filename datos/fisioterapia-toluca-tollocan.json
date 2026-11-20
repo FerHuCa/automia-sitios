@@ -1,0 +1,58 @@
+{
+  "slug": "fisioterapia-toluca-tollocan",
+  "creada": "2026-11-19",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapeuta",
+  "nombre": "Fisioterapia Toluca",
+  "zona": "San Buenaventura, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5625063508",
+  "whatsapp": "525625063508",
+  "direccion": "Av. Paseo Tollocan 1563, San Buenaventura, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Fisioterapia%20Toluca%2C%20Av.%20Paseo%20Tollocan%201563",
+  "calificacion": "5",
+  "resenas": "29",
+  "paleta": "automia",
+  "maps_consulta": "Fisioterapia Toluca, Av. Paseo Tollocan 1563, San Buenaventura, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

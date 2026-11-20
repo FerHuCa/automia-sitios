@@ -1,0 +1,53 @@
+{
+  "slug": "psicologa-angeles-gutierrez",
+  "creada": "2026-11-19",
+  "giro": "psicologia",
+  "giro_texto": "Psicóloga",
+  "nombre": "Psicóloga Angeles Gutiérrez",
+  "zona": "Coyoacán, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5514080176",
+  "whatsapp": "525514080176",
+  "direccion": "Aguayo 3, Coyoacán, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Psic%C3%B3loga%20Angeles%20Guti%C3%A9rrez%20Coyoac%C3%A1n%2C%20Aguayo%203",
+  "calificacion": "5",
+  "resenas": "25",
+  "paleta": "automia",
+  "maps_consulta": "Psicóloga Angeles Gutiérrez, Aguayo 3, Coyoacán, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "12:00",
+        "20:00"
+      ]
+    ],
+    "vie": [],
+    "sab": [
+      [
+        "08:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

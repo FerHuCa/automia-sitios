@@ -1,0 +1,58 @@
+{
+  "slug": "fisiomed-roma",
+  "creada": "2026-11-19",
+  "giro": "fisioterapia",
+  "giro_texto": "Centro de terapia física",
+  "nombre": "Fisiomed Roma",
+  "zona": "Roma Sur, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5525593827",
+  "whatsapp": "525525593827",
+  "direccion": "Tepic 139, Roma Sur, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Fisiomed%20Roma%20Tepic%20139",
+  "calificacion": "4.8",
+  "resenas": "25",
+  "paleta": "automia",
+  "maps_consulta": "Fisiomed Roma, Tepic 139, Roma Sur, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "07:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "07:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "07:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "07:00",
+        "21:00"
+      ]
+    ],
+    "vie": [
+      [
+        "07:00",
+        "21:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  }
+}

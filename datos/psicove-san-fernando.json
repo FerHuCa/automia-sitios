@@ -1,0 +1,63 @@
+{
+  "slug": "psicove-san-fernando",
+  "creada": "2026-11-19",
+  "giro": "psicologia",
+  "giro_texto": "Clínica psicológica integral",
+  "nombre": "PSICOVE San Fernando",
+  "zona": "San Fernando, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5534189849",
+  "whatsapp": "525534189849",
+  "direccion": "Av. San Fernando 26, San Fernando, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=PSICOVE%20San%20Fernando%2C%20Av%20San%20Fernando%2026",
+  "calificacion": "4.9",
+  "resenas": "73",
+  "paleta": "automia",
+  "maps_consulta": "PSICOVE San Fernando, Av. San Fernando 26, San Fernando, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "08:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "08:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "08:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "08:00",
+        "21:00"
+      ]
+    ],
+    "vie": [
+      [
+        "08:00",
+        "21:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "16:00"
+      ]
+    ],
+    "dom": [
+      [
+        "09:00",
+        "14:00"
+      ]
+    ]
+  }
+}

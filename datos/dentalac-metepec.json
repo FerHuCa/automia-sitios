@@ -1,0 +1,58 @@
+{
+  "slug": "dentalac-metepec",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Dentista",
+  "nombre": "DentalAC Metepec",
+  "zona": "Santa Cruz, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7226817921",
+  "whatsapp": "527226817921",
+  "direccion": "Calle José Ma. Morelos 155, Santa Cruz, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=DentalAC%20Metepec%2C%20Calle%20Jose%20Ma.%20Morelos%20155",
+  "calificacion": "5",
+  "resenas": "25",
+  "paleta": "automia",
+  "maps_consulta": "DentalAC Metepec, Calle José Ma. Morelos 155, Santa Cruz, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

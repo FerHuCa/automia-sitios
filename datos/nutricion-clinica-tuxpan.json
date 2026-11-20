@@ -1,0 +1,58 @@
+{
+  "slug": "nutricion-clinica-tuxpan",
+  "creada": "2026-11-19",
+  "giro": "nutricion",
+  "giro_texto": "Nutrición clínica",
+  "nombre": "Grupo Médico Especializado, Nutrición Clínica",
+  "zona": "Roma Sur, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5561932285",
+  "whatsapp": "525561932285",
+  "direccion": "Tuxpan 54, Roma Sur, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=grupo%20m%C3%A9dico%20especializado%20nutrici%C3%B3n%20cl%C3%ADnica%2C%20Tuxpan%2054",
+  "calificacion": "5",
+  "resenas": "32",
+  "paleta": "automia",
+  "maps_consulta": "Grupo Médico Especializado, Nutrición Clínica, Tuxpan 54, Roma Sur, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "08:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "15:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "14:30"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "14:30"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

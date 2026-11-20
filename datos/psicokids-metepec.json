@@ -1,0 +1,58 @@
+{
+  "slug": "psicokids-metepec",
+  "creada": "2026-11-19",
+  "giro": "psicologia",
+  "giro_texto": "Psicología infantil",
+  "nombre": "Psicokids",
+  "zona": "San Jorge Pueblo Nuevo, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7222911093",
+  "whatsapp": "527222911093",
+  "direccion": "Calle Prof. Cándido Jaramillo, San Jorge Pueblo Nuevo, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Psicokids%20Metepec%2C%20Calle%20Prof%20C%C3%A1ndido%20Jaramillo",
+  "calificacion": "5",
+  "resenas": "27",
+  "paleta": "automia",
+  "maps_consulta": "Psicokids, Calle Prof. Cándido Jaramillo, San Jorge Pueblo Nuevo, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

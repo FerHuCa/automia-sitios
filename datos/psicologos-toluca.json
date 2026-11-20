@@ -1,0 +1,58 @@
+{
+  "slug": "psicologos-toluca",
+  "creada": "2026-11-19",
+  "giro": "psicologia",
+  "giro_texto": "Psicología",
+  "nombre": "Psicólogos Toluca",
+  "zona": "Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7223159117",
+  "whatsapp": "527223159117",
+  "direccion": "Nicolás Bravo Nte. 822, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Psicologos%20Toluca%2C%20Nicol%C3%A1s%20Bravo%20Nte.%20822",
+  "calificacion": "5",
+  "resenas": "39",
+  "paleta": "automia",
+  "maps_consulta": "Psicólogos Toluca, Nicolás Bravo Nte. 822, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:30",
+        "20:30"
+      ]
+    ],
+    "mar": [
+      [
+        "09:30",
+        "20:30"
+      ]
+    ],
+    "mie": [
+      [
+        "09:30",
+        "20:30"
+      ]
+    ],
+    "jue": [
+      [
+        "09:30",
+        "20:30"
+      ]
+    ],
+    "vie": [
+      [
+        "09:30",
+        "20:30"
+      ]
+    ],
+    "sab": [],
+    "dom": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "optica-enfoque-toluca",
+  "creada": "2026-11-19",
+  "giro": "optica",
+  "giro_texto": "Óptica",
+  "nombre": "Óptica Enfoque",
+  "zona": "Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7223713576",
+  "whatsapp": "527223713576",
+  "direccion": "Benito Juárez Nte. 416, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=%C3%93ptica%20Enfoque%20Toluca%2C%20Benito%20Ju%C3%A1rez%20Nte.%20416",
+  "calificacion": "4.8",
+  "resenas": "32",
+  "paleta": "automia",
+  "maps_consulta": "Óptica Enfoque, Benito Juárez Nte. 416, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:30",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}

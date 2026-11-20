@@ -1,0 +1,58 @@
+{
+  "slug": "laudent-metepec",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Laudent Odontología Integral",
+  "zona": "Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7291474195",
+  "whatsapp": "527291474195",
+  "direccion": "Av. Estado de México 1300, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Laudent%20odontolog%C3%ADa%20integral%20Metepec%2C%20Av.%20Estado%20de%20M%C3%A9xico%201300",
+  "calificacion": "5",
+  "resenas": "26",
+  "paleta": "automia",
+  "maps_consulta": "Laudent Odontología Integral, Av. Estado de México 1300, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "mar": [],
+    "mie": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "17:00"
+      ]
+    ],
+    "dom": [
+      [
+        "10:00",
+        "17:00"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "baby-dental-care-toluca",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Dentista de niños",
+  "nombre": "Baby Dental Care",
+  "zona": "San Mateo Oxtotitlán, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7221593598",
+  "whatsapp": "527221593598",
+  "direccion": "Guillermo Prieto 105, San Mateo Oxtotitlán, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Baby%20Dental%20Care%20Toluca%2C%20Guillermo%20Prieto%20105",
+  "calificacion": "5",
+  "resenas": "25",
+  "paleta": "automia",
+  "maps_consulta": "Baby Dental Care, Guillermo Prieto 105, San Mateo Oxtotitlán, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "14:00",
+        "17:00"
+      ]
+    ],
+    "mar": [
+      [
+        "14:00",
+        "17:00"
+      ]
+    ],
+    "mie": [
+      [
+        "14:30",
+        "17:00"
+      ]
+    ],
+    "jue": [
+      [
+        "14:30",
+        "17:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "18:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "dom": []
+  }
+}

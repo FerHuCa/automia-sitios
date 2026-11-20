@@ -1,0 +1,58 @@
+{
+  "slug": "dra-rafaela-carranza",
+  "creada": "2026-11-19",
+  "giro": "dental",
+  "giro_texto": "Dentista",
+  "nombre": "Dra. Rafaela Carranza Gómez",
+  "zona": "Morelos, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5591939889",
+  "whatsapp": "525591939889",
+  "direccion": "Felipe Villanueva 1114, Morelos, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Dra.%20Rafaela%20Carranza%20G%C3%B3mez%20Toluca%2C%20Felipe%20Villanueva%201114",
+  "calificacion": "4.9",
+  "resenas": "35",
+  "paleta": "automia",
+  "maps_consulta": "Dra. Rafaela Carranza Gómez, Felipe Villanueva 1114, Morelos, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "19:30"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "19:30"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "19:30"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "19:30"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "19:30"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}

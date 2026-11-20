@@ -1,0 +1,58 @@
+{
+  "slug": "fisiorebe-metepec",
+  "creada": "2026-11-19",
+  "giro": "fisioterapia",
+  "giro_texto": "Terapia física y rehabilitación",
+  "nombre": "FISIOREBE",
+  "zona": "San Mateo, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5572913672",
+  "whatsapp": "525572913672",
+  "direccion": "Josefa Ortiz de Domínguez 333, San Mateo, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=FISIOREBE%20Metepec%2C%20Josefa%20Ortiz%20de%20Dom%C3%ADnguez%20333",
+  "calificacion": "5",
+  "resenas": "28",
+  "paleta": "automia",
+  "maps_consulta": "FISIOREBE, Josefa Ortiz de Domínguez 333, San Mateo, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "08:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  }
+}
