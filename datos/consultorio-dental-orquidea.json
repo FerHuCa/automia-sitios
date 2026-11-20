@@ -1,0 +1,58 @@
+{
+  "slug": "consultorio-dental-orquidea",
+  "creada": "2026-11-20",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Consultorio Dental Orquídea",
+  "zona": "Ciudad Jardín, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5560852677",
+  "instagram": "grupo.floradental",
+  "direccion": "Hortensias 72 A, Ciudad Jardín, Coyoacán, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Consultorio%20Dental%20Orqu%C3%ADdea%2C%20Hortensias%2072%20A%20Coyoac%C3%A1n",
+  "calificacion": "5",
+  "resenas": "27",
+  "paleta": "automia",
+  "maps_consulta": "Consultorio Dental Orquídea, Hortensias 72 A, Ciudad Jardín, Coyoacán, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  }
+}

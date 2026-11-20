@@ -1,0 +1,48 @@
+{
+  "slug": "metropoli-dent-hipodromo",
+  "creada": "2026-11-20",
+  "giro": "dental",
+  "giro_texto": "Clínica dental",
+  "nombre": "Clínica Dental Metropoli Dent",
+  "zona": "Hipódromo, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5543418343",
+  "instagram": "metropolident",
+  "direccion": "Cholula 103, Hipódromo, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Clinica%20Dental%20Metropoli%20Dent%2C%20Cholula%20103",
+  "calificacion": "5",
+  "resenas": "80",
+  "paleta": "automia",
+  "maps_consulta": "Clínica Dental Metropoli Dent, Cholula 103, Hipódromo, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [],
+    "mar": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "mie": [],
+    "jue": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

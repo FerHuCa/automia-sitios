@@ -1,0 +1,63 @@
+{
+  "slug": "odontologia-atm-coapa",
+  "creada": "2026-11-20",
+  "giro": "dental",
+  "giro_texto": "Dentista",
+  "nombre": "Odontología integral, ortodoncia y trastornos de ATM",
+  "zona": "Toriello Guerra, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5535673677",
+  "instagram": "marcos_odontologo",
+  "direccion": "Coapa 11, Toriello Guerra, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Marcos%20Odontologo%20ATM%2C%20Coapa%2011%20Toriello%20Guerra",
+  "calificacion": "5",
+  "resenas": "44",
+  "paleta": "automia",
+  "maps_consulta": "Odontología integral, ortodoncia y trastornos de ATM, Coapa 11, Toriello Guerra, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "17:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ],
+    "dom": [
+      [
+        "10:00",
+        "15:30"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "slug": "fisioterapia-flores",
+  "creada": "2026-11-20",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapia",
+  "nombre": "Fisioterapia Flores",
+  "zona": "Los Cedros, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5546602065",
+  "instagram": "fisioterapia_flores",
+  "direccion": "Calz. de las Bombas 326, Los Cedros, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Fisioterapia%20Flores%2C%20Calz.%20de%20las%20Bombas%20326",
+  "calificacion": "5",
+  "resenas": "41",
+  "paleta": "automia",
+  "maps_consulta": "Fisioterapia Flores, Calz. de las Bombas 326, Los Cedros, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "20:30"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "20:30"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "20:30"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "20:30"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "20:30"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "15:00"
+      ]
+    ],
+    "dom": []
+  }
+}

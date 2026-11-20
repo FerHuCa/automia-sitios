@@ -1,0 +1,58 @@
+{
+  "slug": "valanta-fisioterapia",
+  "creada": "2026-11-20",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapia",
+  "nombre": "Valanta Fisioterapia",
+  "zona": "Tezozomoc, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5545292846",
+  "instagram": "valanta_fisioterapia",
+  "direccion": "Av. Aquiles Serdán 920, Tezozomoc, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Valanta%20Fisioterapia%2C%20Av.%20Aquiles%20Serd%C3%A1n%20920",
+  "calificacion": "5",
+  "resenas": "42",
+  "paleta": "automia",
+  "maps_consulta": "Valanta Fisioterapia, Av. Aquiles Serdán 920, Tezozomoc, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}
