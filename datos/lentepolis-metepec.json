@@ -15,5 +15,49 @@
   "paleta": "automia",
   "maps_consulta": "Lentepolis Metepec, 5 de Mayo 90, Santiaguito, Metepec",
   "servicios": [],
-  "preguntas": []
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "10:00",
+        "17:00"
+      ]
+    ],
+    "dom": [
+      [
+        "10:00",
+        "16:00"
+      ]
+    ]
+  }
 }

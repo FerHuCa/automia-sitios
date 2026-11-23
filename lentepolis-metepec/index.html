@@ -29,7 +29,7 @@
       </div>
     </div>
     <aside class="estado" data-estado-caja aria-label="Estado del negocio">
-      <p class="estado-ahora">Horario por confirmar</p><p class="estado-detalle">Pregunte directo al negocio.</p>
+      <p class="estado-ahora"><span class="estado-punto"></span><span data-estado-titulo>Consulte el horario</span></p><p class="estado-detalle" data-estado-detalle>Vea la tabla de horario más abajo.</p>
       <p class="estado-resenas"><strong>4.7</strong><span class="estrella" aria-hidden="true">★</span><span>27 reseñas en <a href="https://www.google.com/maps/search/?api=1&amp;query=Lentepolis%20Metepec%2C%205%20de%20Mayo%2090" target="_blank" rel="noopener">Google</a></span></p>
     </aside>
   </div>
@@ -42,7 +42,17 @@
     <div class="contenedor dos-columnas">
       <div id="horario">
         <h2>Horario</h2>
-        <p class="seccion-entrada">El horario no está publicado. Pregunte directo al negocio.</p>
+        <table class="horario">
+          <tbody>
+          <tr data-dia="lun"><th scope="row">Lunes<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 7:00 pm</span></td></tr>
+          <tr data-dia="mar"><th scope="row">Martes<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 7:00 pm</span></td></tr>
+          <tr data-dia="mie"><th scope="row">Miércoles<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 7:00 pm</span></td></tr>
+          <tr data-dia="jue"><th scope="row">Jueves<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 7:00 pm</span></td></tr>
+          <tr data-dia="vie"><th scope="row">Viernes<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 7:00 pm</span></td></tr>
+          <tr data-dia="sab"><th scope="row">Sábado<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 5:00 pm</span></td></tr>
+          <tr data-dia="dom"><th scope="row">Domingo<span data-hoy hidden> (hoy)</span></th><td><span>10:00 am a 4:00 pm</span></td></tr>
+          </tbody>
+        </table>
       </div>
       <div class="ubicacion" id="ubicacion">
         <h2>Cómo llegar</h2>
@@ -113,7 +123,7 @@
   </form>
 </section>
 
-<script type="application/json" id="datos">{"nombre": "Lentepolis Metepec", "direccion": "5 de Mayo 90, Santiaguito, Metepec", "maps_url": "https://www.google.com/maps/search/?api=1&query=Lentepolis%20Metepec%2C%205%20de%20Mayo%2090", "telefono": "7223746497", "telefono_visible": "722 374 6497", "whatsapp": "527223746497"}</script>
+<script type="application/json" id="datos">{"nombre": "Lentepolis Metepec", "direccion": "5 de Mayo 90, Santiaguito, Metepec", "maps_url": "https://www.google.com/maps/search/?api=1&query=Lentepolis%20Metepec%2C%205%20de%20Mayo%2090", "telefono": "7223746497", "telefono_visible": "722 374 6497", "whatsapp": "527223746497", "horario": {"lun": [["10:00", "19:00"]], "mar": [["10:00", "19:00"]], "mie": [["10:00", "19:00"]], "jue": [["10:00", "19:00"]], "vie": [["10:00", "19:00"]], "sab": [["10:00", "17:00"]], "dom": [["10:00", "16:00"]]}}</script>
 <script src="../assets/sitio.js" defer></script>
 </body>
 </html>
