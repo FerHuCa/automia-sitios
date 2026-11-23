@@ -5,10 +5,15 @@ Uso:
     python3 tools/generar.py                 genera todas las de datos/
     python3 tools/generar.py ejemplo-dental  genera solo esa
     python3 tools/generar.py --vencidas      lista las que ya pasaron de 14 días
+    python3 tools/generar.py --previa tools/ejemplos/consultorio-los-encinos.json
 
-Solo usa la biblioteca estándar. Cada archivo datos/<slug>.json produce
-<slug>/index.html. Si a un negocio le falta un dato, se omite ese bloque:
-nunca se inventa.
+La plantilla v1 sigue siendo la de siempre y no pide dependencias.
+La v2 (solo si el JSON trae "plantilla": "v2") arma la página nueva y
+necesita Pillow para la imagen de redes: python3 -m pip install pillow.
+
+Cada archivo datos/<slug>.json produce <slug>/index.html. Si a un negocio
+le falta un dato, se omite ese bloque: nunca se inventa. --previa escribe
+en vista-previa/ y no publica el ejemplo.
 """
 
 import html
@@ -113,6 +118,8 @@ def validar(d, origen):
         for tramo in tramos:
             if len(tramo) != 2 or not all(re.fullmatch(r"\d\d:\d\d", t) for t in tramo):
                 raise SystemExit(f"{origen}: tramo de horario mal escrito en {dia}: {tramo}")
+    if d.get("plantilla") not in (None, "v1", "v2"):
+        raise SystemExit(f"{origen}: plantilla '{d['plantilla']}' no existe. Opciones: v1, v2")
     date.fromisoformat(d["creada"])
 
 
@@ -204,9 +211,12 @@ def bloque_preguntas(d):
     return "\n".join(piezas)
 
 
-def generar(ruta):
+def generar(ruta, destino_raiz=None):
     d = json.loads(ruta.read_text(encoding="utf-8"))
     validar(d, ruta.name)
+    if d.get("plantilla") == "v2":
+        from v2 import generar_v2
+        return generar_v2(d, ruta, destino_raiz)
 
     creada = date.fromisoformat(d["creada"])
     if d.get("telefono"):
@@ -260,8 +270,8 @@ def generar(ruta):
         raise SystemExit(f"La plantilla pide valores que no existen: {', '.join(sorted(pendientes))}")
     pagina = re.sub(r"\{\{(\w+)\}\}", lambda m: valores[m.group(1)], plantilla)
 
-    destino = RAIZ / d["slug"]
-    destino.mkdir(exist_ok=True)
+    destino = (Path(destino_raiz) if destino_raiz else RAIZ) / d["slug"]
+    destino.mkdir(parents=True, exist_ok=True)
     (destino / "index.html").write_text(pagina, encoding="utf-8")
     return d["slug"]
 
@@ -286,13 +296,22 @@ def main():
     if args == ["--vencidas"]:
         vencidas()
         return
-    rutas = [DATOS / f"{a}.json" for a in args] if args else sorted(DATOS.glob("*.json"))
+    destino_raiz = None
+    if args[:1] == ["--previa"]:
+        if len(args) != 2:
+            raise SystemExit(
+                "Uso: python3 tools/generar.py --previa tools/ejemplos/consultorio-los-encinos.json"
+            )
+        destino_raiz = RAIZ / "vista-previa"
+        rutas = [Path(args[1])]
+    else:
+        rutas = [DATOS / f"{a}.json" for a in args] if args else sorted(DATOS.glob("*.json"))
     if not rutas:
         raise SystemExit("No hay archivos en datos/")
     for ruta in rutas:
         if not ruta.exists():
             raise SystemExit(f"No existe {ruta}")
-        print("Generada:", generar(ruta))
+        print("Generada:", generar(ruta, destino_raiz))
 
 
 if __name__ == "__main__":
