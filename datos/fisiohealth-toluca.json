@@ -1,0 +1,58 @@
+{
+  "slug": "fisiohealth-toluca",
+  "creada": "2026-11-23",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapeuta",
+  "nombre": "Fisiohealth Fisioterapia Toluca",
+  "zona": "Federal, Toluca",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7225742042",
+  "whatsapp": "527225742042",
+  "direccion": "José Luis Alamo 905, Federal, Toluca",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Fisiohealth%20Fisioterapia%20Toluca%2C%20Jos%C3%A9%20Luis%20Alamo%20905",
+  "calificacion": "4.5",
+  "resenas": "38",
+  "paleta": "automia",
+  "maps_consulta": "Fisiohealth Fisioterapia Toluca, José Luis Alamo 905, Federal, Toluca",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "10:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}
