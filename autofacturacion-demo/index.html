@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Demo de autofacturación CFDI 4.0 | Automia</title>
+<meta name="description" content="Demostración con datos ficticios de un portal de autofacturación CFDI 4.0. Las facturas de la demo son de prueba y no tienen validez ante el SAT.">
+<meta name="theme-color" content="#1F4E79">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%27http%3A//www.w3.org/2000/svg%27%20viewBox%3D%270%200%2064%2064%27%3E%3Crect%20width%3D%2764%27%20height%3D%2764%27%20rx%3D%2714%27%20fill%3D%27%231F4E79%27/%3E%3Ctext%20x%3D%2732%27%20y%3D%2745%27%20font-family%3D%27Arial%2Csans-serif%27%20font-size%3D%2738%27%20font-weight%3D%27700%27%20text-anchor%3D%27middle%27%20fill%3D%27white%27%3EA%3C/text%3E%3C/svg%3E">
+<style>
+:root{--azul:#1F4E79;--azul-hover:#173C5E;--azul-suave:#E6EEF6;--texto:#16202B;--muted:#4D5B69;--fondo:#F4F6F8;--blanco:#fff;--linea:#D9DEE4;--linea-2:#BCC5CF;--ok:#256B3A;--ok-fondo:#E5F2E8;--aviso:#7A5300;--aviso-fondo:#FBF1DA;--error:#A3302A;--error-fondo:#FBE9E7}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{min-height:100vh;background:var(--fondo);color:var(--texto);font-family:"Source Sans 3","Segoe UI","Helvetica Neue",Arial,sans-serif;font-size:16px;line-height:1.45}
+button,input,select{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:2px solid var(--azul);outline-offset:2px}
+.aviso-demo{margin:0;padding:10px 16px;background:var(--aviso-fondo);color:var(--aviso);text-align:center;font-size:14px;border-bottom:1px solid #E8D5A6}
+header.cab{background:var(--blanco);border-bottom:1px solid var(--linea)}
+.cab-in{max-width:880px;margin:0 auto;padding:16px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.marca{font-weight:600;color:var(--azul);font-size:18px}
+.marca small{display:block;font-weight:400;color:var(--muted);font-size:13px}
+main{max-width:880px;margin:0 auto;padding:20px 16px 48px}
+.pasos{display:flex;gap:8px;list-style:none;margin:0 0 16px;padding:0;flex-wrap:wrap}
+.pasos li{flex:1 1 140px;padding:8px 12px;border:1px solid var(--linea);border-radius:8px;background:var(--blanco);color:var(--muted);font-size:14px}
+.pasos li[aria-current="step"]{border-color:var(--azul);background:var(--azul-suave);color:var(--azul);font-weight:600}
+.pasos li.hecho{color:var(--ok);border-color:#B9DCC3}
+.tarjeta{background:var(--blanco);border:1px solid var(--linea);border-radius:12px;padding:20px}
+h1{font-size:24px;margin:0 0 4px}
+h2{font-size:20px;margin:0 0 4px}
+.sub{color:var(--muted);margin:0 0 16px}
+.rejilla{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.campo{display:flex;flex-direction:column;gap:4px}
+.campo.ancho{grid-column:1/-1}
+label{font-weight:600;font-size:14px}
+input,select{border:1px solid var(--linea-2);border-radius:8px;padding:10px 12px;background:var(--blanco);min-height:44px;width:100%}
+input[readonly]{background:#F7F9FB}
+.ayuda{color:var(--muted);font-size:13px}
+.err{color:var(--error);font-size:13px;min-height:0}
+.campo.mal input,.campo.mal select{border-color:var(--error);background:var(--error-fondo)}
+.etq{display:inline-block;font-size:12px;padding:1px 8px;border-radius:999px;margin-left:6px;font-weight:600}
+.etq.leido{background:var(--ok-fondo);color:var(--ok)}
+.etq.rev{background:var(--aviso-fondo);color:var(--aviso)}
+.btn{border:1px solid var(--azul);background:var(--azul);color:#fff;border-radius:8px;padding:10px 18px;min-height:44px;font-weight:600}
+.btn:hover{background:var(--azul-hover)}
+.btn.sec{background:var(--blanco);color:var(--azul)}
+.btn.sec:hover{background:var(--azul-suave)}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.acciones{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+.zona{border:2px dashed var(--linea-2);border-radius:12px;padding:28px 16px;text-align:center;background:#FAFBFC}
+.zona p{margin:6px 0}
+.aviso{border-radius:8px;padding:10px 12px;margin:12px 0;font-size:14px}
+.aviso.i{background:var(--azul-suave);color:var(--azul)}
+.aviso.a{background:var(--aviso-fondo);color:var(--aviso)}
+.aviso.ok{background:var(--ok-fondo);color:var(--ok)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:10px 8px;border-bottom:1px solid var(--linea);vertical-align:top}
+th{color:var(--muted);font-weight:600;font-size:13px}
+.mono{font-family:"IBM Plex Mono",ui-monospace,Menlo,Consolas,monospace;font-size:13px}
+.conf{font-weight:600}
+.conf.alta{color:var(--ok)}.conf.media{color:var(--aviso)}.conf.baja{color:var(--error)}
+tr.marcada td{background:#FBF6EA}
+td .btn{min-height:36px;padding:4px 10px;font-size:13px;margin:2px 4px 2px 0}
+.est{font-size:13px;color:var(--muted)}
+.tot{display:flex;justify-content:flex-end;gap:24px;margin-top:10px;font-size:15px}
+.tot b{font-size:18px}
+dl.res{display:grid;grid-template-columns:max-content 1fr;gap:6px 16px;margin:12px 0}
+dl.res dt{color:var(--muted)}dl.res dd{margin:0}
+footer{max-width:880px;margin:0 auto;padding:0 16px 32px;color:var(--muted);font-size:13px}
+.oculto{display:none!important}
+.sr{position:absolute;left:-9999px}
+@media(max-width:640px){.rejilla{grid-template-columns:1fr}.tarjeta{padding:16px}
+ table,thead,tbody,tr,td,th{display:block}thead{display:none}
+ tr{border:1px solid var(--linea);border-radius:8px;margin-bottom:10px;padding:6px 8px}
+ td{border:0;padding:4px 0}td[data-e]::before{content:attr(data-e) ": ";color:var(--muted);font-weight:600}}
+@media(prefers-reduced-motion:no-preference){.tarjeta{animation:ent .2s ease-out}@keyframes ent{from{opacity:.6;transform:translateY(4px)}}}
+</style>
+</head>
+<body>
+<p class="aviso-demo"><strong>Demostración con datos ficticios.</strong> No escribas datos reales: esta página no envía ni guarda nada. Las facturas de la demo son de prueba y no tienen validez ante el SAT.</p>
+<header class="cab"><div class="cab-in">
+  <div class="marca">Automia<small>Portal de autofacturación CFDI 4.0 · demo</small></div>
+  <button type="button" class="btn sec" id="reiniciar">Reiniciar demo</button>
+</div></header>
+
+<main>
+  <ol class="pasos" id="pasos" aria-label="Pasos">
+    <li data-p="1" aria-current="step">1 · Constancia fiscal</li>
+    <li data-p="2">2 · Claves SAT</li>
+    <li data-p="3">3 · Listo</li>
+  </ol>
+
+  <!-- Paso 1 -->
+  <section class="tarjeta" id="p1" aria-labelledby="t1">
+    <h1 id="t1">Tus datos fiscales</h1>
+    <p class="sub">Así se vería el paso en el que tu cliente sube su constancia. En la demo usamos una constancia ficticia.</p>
+
+    <div class="zona" id="zona">
+      <p><strong>Sube tu constancia</strong></p>
+      <p class="ayuda">En la versión real: PDF del SAT, máximo 10 MB. Aquí no se sube ningún archivo.</p>
+      <button type="button" class="btn" id="cargar">Usar constancia de ejemplo</button>
+      <button type="button" class="btn sec" id="manual">Capturar a mano</button>
+    </div>
+    <p class="aviso i oculto" id="leyendo" role="status">Leyendo la constancia de ejemplo…</p>
+
+    <div id="form" class="oculto">
+      <p class="aviso ok" id="msgleido" role="status">Listo, leímos la constancia de ejemplo. Revisa los datos marcados.</p>
+      <div class="rejilla">
+        <div class="campo" id="c-rfc"><label for="rfc">RFC <span class="etq leido" id="e-rfc">Leído</span></label>
+          <input id="rfc" class="mono" maxlength="13" autocomplete="off" spellcheck="false">
+          <span class="ayuda">12 caracteres si es persona moral, 13 si es persona física.</span><span class="err" id="x-rfc"></span></div>
+        <div class="campo" id="c-nom"><label for="nom">Razón social o nombre <span class="etq leido" id="e-nom">Leído</span></label>
+          <input id="nom" autocomplete="off">
+          <span class="ayuda">Igual que en la constancia, sin «SA de CV».</span><span class="err" id="x-nom"></span></div>
+        <div class="campo" id="c-reg"><label for="reg">Régimen fiscal <span class="etq rev" id="e-reg">Revisar</span></label>
+          <select id="reg"><option value="">Elige tu régimen fiscal</option></select>
+          <span class="ayuda" id="a-reg">La constancia muestra más de un régimen. Elige el que usarás para facturar.</span><span class="err" id="x-reg"></span></div>
+        <div class="campo" id="c-cp"><label for="cp">Código postal <span class="etq leido" id="e-cp">Leído</span></label>
+          <input id="cp" class="mono" inputmode="numeric" maxlength="5" autocomplete="off">
+          <span class="ayuda">El de tu domicilio fiscal.</span><span class="err" id="x-cp"></span></div>
+        <div class="campo" id="c-uso"><label for="uso">Uso del CFDI</label>
+          <select id="uso" disabled><option value="">Elige primero tu régimen fiscal</option></select>
+          <span class="ayuda">Solo mostramos los usos que aplican a tu régimen.</span><span class="err" id="x-uso"></span></div>
+        <div class="campo" id="c-mail"><label for="mail">Correo para recibir tu factura</label>
+          <input id="mail" type="email" placeholder="nombre@ejemplo.com" autocomplete="off">
+          <span class="ayuda">En la demo no se envía ningún correo.</span><span class="err" id="x-mail"></span></div>
+      </div>
+      <div class="acciones">
+        <button type="button" class="btn" id="sig1">Continuar</button>
+        <button type="button" class="btn sec" id="otra">Volver a empezar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Paso 2 -->
+  <section class="tarjeta oculto" id="p2" aria-labelledby="t2">
+    <h2 id="t2">Revisa las claves del SAT</h2>
+    <p class="sub">Del ticket de ejemplo <span class="mono">T-1001</span> sugerimos ClaveProdServ y ClaveUnidad para cada producto. Acepta, cambia la unidad o marca el producto para que lo revise la tienda.</p>
+    <table>
+      <thead><tr><th>Producto</th><th>ClaveProdServ sugerida</th><th>ClaveUnidad</th><th>Confianza</th><th>Acciones</th></tr></thead>
+      <tbody id="filas"></tbody>
+    </table>
+    <div class="tot"><span>Subtotal <b class="mono">$1,000.00</b></span><span>IVA 16% <b class="mono">$160.00</b></span><span>Total <b class="mono">$1,160.00</b></span></div>
+    <p class="aviso a oculto" id="falta" role="status"></p>
+    <div class="acciones">
+      <button type="button" class="btn" id="sig2" disabled>Continuar</button>
+      <button type="button" class="btn sec" id="atras2">Atrás</button>
+    </div>
+  </section>
+
+  <!-- Paso 3 -->
+  <section class="tarjeta oculto" id="p3" aria-labelledby="t3">
+    <h2 id="t3" tabindex="-1">Listo</h2>
+    <p class="aviso a"><strong>Timbre de prueba.</strong> Esto es una demostración: la factura lleva un timbre de prueba y no tiene validez fiscal ante el SAT.</p>
+    <p id="estado" class="aviso ok" role="status"></p>
+    <dl class="res" id="res"></dl>
+    <p class="ayuda">Así se vería tu factura. Con un timbre real, el SAT asignaría un folio fiscal (UUID) y la factura sería válida. Esta demo no promete fecha de salida en vivo.</p>
+    <div class="acciones">
+      <button type="button" class="btn" id="otra2">Probar otra vez</button>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Demo preparada por Automia con datos ficticios (RFC genérico de pruebas, ticket y claves de ejemplo). No consulta al SAT ni a ningún servicio externo, no guarda datos y no usa cookies. Si tienes dudas, escribe a <a href="mailto:automia.consultoria@gmail.com">automia.consultoria@gmail.com</a>.</p>
+</footer>
+
+<script>
+(function(){
+  var $=function(i){return document.getElementById(i)};
+  var REG=[["601","General de Ley Personas Morales"],["626","Régimen Simplificado de Confianza"]];
+  var REG_MANUAL=[["601","General de Ley Personas Morales"],["603","Personas Morales con Fines no Lucrativos"],["612","Personas Físicas con Actividades Empresariales y Profesionales"],["626","Régimen Simplificado de Confianza"]];
+  var USOS={ "601":[["G01","Adquisición de mercancías"],["G03","Gastos en general"],["I04","Equipo de cómputo y accesorios"]],
+    "603":[["G01","Adquisición de mercancías"],["G03","Gastos en general"]],
+    "612":[["G01","Adquisición de mercancías"],["G03","Gastos en general"],["D01","Honorarios médicos, dentales y gastos hospitalarios"]],
+    "626":[["G01","Adquisición de mercancías"],["G03","Gastos en general"],["I04","Equipo de cómputo y accesorios"]] };
+  var GENERICOS=["XAXX010101000","XEXX010101000"];
+  var UNIDADES=[["E48","Unidad de servicio"],["H87","Pieza"],["ACT","Actividad"]];
+  var PRODUCTOS=[
+    {n:"Servicio de consultoría ejemplo",c:"80101500",d:"Servicios de consultoría de negocios y administración corporativa",u:"E48",p:0.93},
+    {n:"Flete local ejemplo",c:"78101800",d:"Transporte de carga por carretera",u:"E48",p:0.74},
+    {n:"Paquete misceláneo ejemplo",c:"01010101",d:"No existe en el catálogo",u:"H87",p:0.30}
+  ];
+  var estado,paso;
+
+  function nivel(p){return p>=0.85?["Alta","alta"]:p>=0.6?["Media","media"]:["Baja","baja"]}
+  function llenar(sel,lista,vacio){sel.innerHTML="";var o=document.createElement("option");o.value="";o.textContent=vacio;sel.appendChild(o);lista.forEach(function(x){var e=document.createElement("option");e.value=x[0];e.textContent=x[0]+" · "+x[1];sel.appendChild(e)})}
+  function mostrar(n){paso=n;["p1","p2","p3"].forEach(function(id,i){$(id).classList.toggle("oculto",i+1!==n)});
+    Array.prototype.forEach.call($("pasos").children,function(li,i){li.removeAttribute("aria-current");li.classList.toggle("hecho",i+1<n);if(i+1===n)li.setAttribute("aria-current","step")});
+    window.scrollTo(0,0)}
+  function reiniciar(){
+    estado={filas:PRODUCTOS.map(function(){return {acc:null,u:null}}),manual:false};
+    ["rfc","nom","cp","mail"].forEach(function(i){$(i).value="";$("c-"+(i==="nom"?"nom":i)).classList.remove("mal");$("x-"+i).textContent=""});
+    ["reg","uso"].forEach(function(i){$("c-"+i).classList.remove("mal");$("x-"+i).textContent=""});
+    llenar($("reg"),REG,"Elige tu régimen fiscal");$("reg").value="";
+    llenar($("uso"),[],"Elige primero tu régimen fiscal");$("uso").disabled=true;
+    $("zona").classList.remove("oculto");$("form").classList.add("oculto");$("leyendo").classList.add("oculto");
+    mostrar(1);pintar()}
+
+  function cargarEjemplo(){
+    $("zona").classList.add("oculto");$("leyendo").classList.remove("oculto");
+    setTimeout(function(){
+      $("leyendo").classList.add("oculto");$("form").classList.remove("oculto");
+      estado.manual=false;
+      $("rfc").value="EKU9003173C9";$("nom").value="CLIENTE EJEMPLO";$("cp").value="01000";
+      $("msgleido").classList.remove("oculto");
+      ["e-rfc","e-nom","e-cp","e-reg"].forEach(function(i){$(i).classList.remove("oculto")});
+      llenar($("reg"),REG,"Elige tu régimen fiscal");$("a-reg").textContent="La constancia muestra más de un régimen. Elige el que usarás para facturar.";
+      $("rfc").focus();
+    },900)}
+  function capturarManual(){
+    $("zona").classList.add("oculto");$("form").classList.remove("oculto");estado.manual=true;
+    $("msgleido").classList.add("oculto");
+    ["e-rfc","e-nom","e-cp","e-reg"].forEach(function(i){$(i).classList.add("oculto")});
+    llenar($("reg"),REG_MANUAL,"Elige tu régimen fiscal");$("a-reg").textContent="Elige el régimen que aparece en tu constancia.";
+    $("rfc").focus()}
+
+  function falla(campo,msg){$("c-"+campo).classList.add("mal");$("x-"+campo).textContent=msg}
+  function limpiar(campo){$("c-"+campo).classList.remove("mal");$("x-"+campo).textContent=""}
+  function validar(){
+    var ok=true,rfc=$("rfc").value.trim().toUpperCase();$("rfc").value=rfc;
+    ["rfc","nom","reg","cp","uso","mail"].forEach(limpiar);
+    if(!rfc){falla("rfc","Escribe tu RFC.");ok=false}
+    else if(GENERICOS.indexOf(rfc)>=0){falla("rfc","En autofacturación cada cliente factura con su propio RFC. Escribe el tuyo, como aparece en tu constancia.");ok=false}
+    else if(!/^[A-ZÑ&]{3,4}[0-9]{6}[A-Z0-9]{3}$/.test(rfc)){falla("rfc","El RFC debe tener 12 caracteres (persona moral) o 13 (persona física), sin espacios ni guiones.");ok=false}
+    var nom=$("nom").value.trim();
+    if(!nom){falla("nom","Escribe tu razón social o nombre.");ok=false}
+    else if(/\bS\.?\s?A\.?(\s?P\.?\s?I\.?)?\s+DE\s+C\.?\s?V\.?\b/i.test(nom)){falla("nom","Quita «SA de CV» o el régimen societario. El SAT lo pide sin él.");ok=false;$("nom").dataset.quitar="1"}
+    if(!$("reg").value){falla("reg","Elige tu régimen fiscal para continuar.");ok=false}
+    if(!/^[0-9]{5}$/.test($("cp").value.trim())){falla("cp",$("cp").value.trim()?"El código postal debe tener 5 dígitos.":"Escribe tu código postal.");ok=false}
+    if(!$("uso").value){falla("uso","Elige el uso del CFDI para continuar.");ok=false}
+    var m=$("mail").value.trim();
+    if(!m){falla("mail","Escribe el correo donde quieres recibir tu factura.");ok=false}
+    else if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(m)){falla("mail","Revisa tu correo. Debe incluir @ y un dominio, por ejemplo nombre@ejemplo.com.");ok=false}
+    if(!ok){var p=document.querySelector(".campo.mal input,.campo.mal select");if(p)p.focus()}
+    return ok}
+
+  function pintar(){
+    var tb=$("filas");tb.innerHTML="";
+    PRODUCTOS.forEach(function(p,i){
+      var f=estado.filas[i],u=f.u||p.u,n=nivel(p.p),tr=document.createElement("tr");
+      if(f.acc==="marcada")tr.className="marcada";
+      var accion;
+      if(f.acc==="aceptada")accion='<span class="est">Aceptada</span> <button type="button" class="btn sec" data-a="deshacer" data-i="'+i+'">Deshacer</button>';
+      else if(f.acc==="cambiada")accion='<span class="est">Cambiada por ti</span> <button type="button" class="btn sec" data-a="deshacer" data-i="'+i+'">Deshacer</button>';
+      else if(f.acc==="marcada")accion='<span class="est">Marcado para revisión</span> <button type="button" class="btn sec" data-a="deshacer" data-i="'+i+'">Quitar marca</button>';
+      else accion='<button type="button" class="btn" data-a="aceptar" data-i="'+i+'">Aceptar</button><button type="button" class="btn sec" data-a="marcar" data-i="'+i+'">Marcar</button>';
+      var sel='<select data-a="unidad" data-i="'+i+'" aria-label="Cambiar unidad de '+p.n+'">'+UNIDADES.map(function(x){return '<option value="'+x[0]+'"'+(x[0]===u?" selected":"")+'>'+x[0]+" · "+x[1]+"</option>"}).join("")+"</select>";
+      tr.innerHTML='<td data-e="Producto">'+p.n+'</td><td data-e="ClaveProdServ"><span class="mono">'+p.c+'</span><br><span class="ayuda">'+p.d+'</span></td><td data-e="Unidad">'+sel+'</td><td data-e="Confianza"><span class="conf '+n[1]+'">'+n[0]+'</span> <span class="ayuda">'+p.p.toFixed(2)+'</span></td><td data-e="Acciones">'+accion+'</td>';
+      tb.appendChild(tr)});
+    var pend=estado.filas.filter(function(f){return !f.acc}).length;
+    $("sig2").disabled=pend>0;
+    var fa=$("falta");
+    if(pend>0){fa.classList.remove("oculto");fa.textContent="Te falta una acción en "+pend+(pend===1?" producto":" productos")+" para continuar."}else fa.classList.add("oculto")}
+
+  function resumen(){
+    var marc=estado.filas.filter(function(f){return f.acc==="marcada"}).length;
+    $("estado").className="aviso "+(marc?"a":"ok");
+    $("estado").textContent=marc?"Solicitud de prueba en revisión: "+marc+(marc===1?" producto marcado espera":" productos marcados esperan")+" a que lo revise la tienda antes de generar la factura de prueba.":"Solicitud de prueba confirmada. Se generaría la factura de prueba y se enviaría a tu correo.";
+    var rs=$("reg");var uso=$("uso");
+    var datos=[["Ticket","T-1001 (ejemplo)"],["RFC receptor",$("rfc").value],["Razón social",$("nom").value.trim()],["Régimen fiscal",rs.options[rs.selectedIndex].text],["Código postal",$("cp").value.trim()],["Uso del CFDI",uso.options[uso.selectedIndex].text],["Correo",$("mail").value.trim()+" (no se envía nada)"],["Total","$1,160.00 MXN (IVA incluido)"],["Folio de prueba",marc?"Pendiente de revisión":"PRUEBA-0001"]];
+    $("res").innerHTML="";
+    datos.forEach(function(d){var a=document.createElement("dt"),b=document.createElement("dd");a.textContent=d[0];b.textContent=d[1];$("res").appendChild(a);$("res").appendChild(b)})}
+
+  $("cargar").onclick=cargarEjemplo;
+  $("manual").onclick=capturarManual;
+  $("otra").onclick=reiniciar;$("otra2").onclick=reiniciar;$("reiniciar").onclick=reiniciar;
+  $("reg").onchange=function(){var v=$("reg").value;llenar($("uso"),USOS[v]||[],v?"Elige el uso del CFDI":"Elige primero tu régimen fiscal");$("uso").disabled=!v;limpiar("reg");$("e-reg").classList.add("oculto")};
+  $("nom").oninput=function(){limpiar("nom")};
+  $("sig1").onclick=function(){if(validar()){pintar();mostrar(2)}};
+  $("atras2").onclick=function(){mostrar(1)};
+  $("sig2").onclick=function(){resumen();mostrar(3);$("t3").focus()};
+  $("filas").onclick=function(e){var b=e.target.closest("button");if(!b)return;var i=+b.dataset.i,f=estado.filas[i];
+    if(b.dataset.a==="aceptar")f.acc="aceptada";else if(b.dataset.a==="marcar")f.acc="marcada";else if(b.dataset.a==="deshacer"){f.acc=null;f.u=null}
+    pintar()};
+  $("filas").onchange=function(e){var s=e.target;if(s.dataset.a!=="unidad")return;var f=estado.filas[+s.dataset.i];f.u=s.value;f.acc=(s.value===PRODUCTOS[+s.dataset.i].u)?f.acc:"cambiada";pintar()};
+  reiniciar();
+})();
+</script>
+</body>
+</html>

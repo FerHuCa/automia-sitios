@@ -23,3 +23,7 @@ automia.consultoria@gmail.com y la borramos el mismo día.
 - Solo datos que el propio negocio publica. Si falta un dato, ese bloque no aparece.
 - No se copian reseñas ni fotos.
 - El asistente responde con esos mismos datos, nunca da precios y no guarda nada.
+
+## Demo de autofacturación
+
+`autofacturacion-demo/` es una sola página estática con datos ficticios que muestra el flujo del portal de autofacturación CFDI 4.0 (constancia, claves SAT, listo). No guarda ni envía datos, no usa servicios externos ni cookies, no aparece en buscadores y avisa en cada pantalla que las facturas son de prueba, sin validez ante el SAT. No lleva precios ni promete fecha de salida en vivo. Liga: `https://ferhuca.github.io/automia-sitios/autofacturacion-demo/`.
