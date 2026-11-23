@@ -1,0 +1,65 @@
+{
+  "slug": "consultorio-los-encinos",
+  "ejemplo": true,
+  "plantilla": "v2",
+  "creada": "2026-11-23",
+  "giro": "dental",
+  "giro_texto": "Consultorio dental",
+  "nombre": "Consultorio Los Encinos",
+  "zona": "Centro, Toluca",
+  "descripcion": "Atención para toda la familia, con cita previa.",
+  "telefono": "7220000000",
+  "whatsapp": "527220000000",
+  "direccion": "Calle Ficticia 100, Col. Centro, Toluca, Estado de México, C.P. 50000",
+  "direccion_partes": {
+    "calle": "Calle Ficticia 100, Col. Centro",
+    "localidad": "Toluca",
+    "region": "Estado de México",
+    "cp": "50000"
+  },
+  "geo": { "latitud": 19.2924, "longitud": -99.6569 },
+  "referencia": "Planta alta, junto al parque",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Calle+Ficticia+100+Toluca",
+  "maps_consulta": "Calle Ficticia 100, Centro, Toluca, Estado de México",
+  "calificacion": "4.8",
+  "resenas": "12",
+  "paleta": "automia",
+  "servicios_origen": "categorias",
+  "servicios": [
+    {"nombre": "Odontología general", "detalle": "Dentista"},
+    {"nombre": "Ortodoncia", "detalle": "Ortodoncista"},
+    {"nombre": "Odontopediatría", "detalle": "Dentista infantil"}
+  ],
+  "distintivos": ["Sanitarios accesibles para silla de ruedas"],
+  "horario": {
+    "lun": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "mar": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "mie": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "jue": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "vie": [["09:00", "14:00"], ["16:00", "19:00"]],
+    "sab": [["09:00", "14:00"]],
+    "dom": []
+  },
+  "permisos": { "resenas": true, "fotos": true, "cedula": true },
+  "resenas_texto": [
+    {
+      "texto": "Me explicaron con calma y la cita empezó a tiempo.",
+      "autor": "Mariana L.",
+      "estrellas": 5
+    },
+    {
+      "texto": "El consultorio está bien señalado desde la calle.",
+      "autor": "Jorge P.",
+      "estrellas": 4
+    }
+  ],
+  "fotos": [
+    {
+      "archivo": "img/recepcion.jpg",
+      "alt": "Ilustración de una recepción, hecha para esta muestra. No es un consultorio real.",
+      "pie": "Imagen de muestra. No es una foto de un consultorio."
+    }
+  ],
+  "profesional": { "nombre": "Dra. Elena Prado", "cedula": "00000000" },
+  "preguntas": []
+}

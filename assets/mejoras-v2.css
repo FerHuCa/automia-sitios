@@ -1,0 +1,77 @@
+/* Plantilla v2. Se carga después de sitio.css.
+   Servicios, confianza y contacto en un toque.
+   Lo que no tiene dato no se pinta: aquí no hay recuadros vacíos. */
+
+:root { --alto-barra: 4.5rem; }
+
+.fuente { margin-top: 0.75rem; font-size: 0.875rem; color: var(--tinta-suave); }
+.fuente a { font-weight: 600; }
+
+.servicios-v2 li { display: flex; flex-direction: column; gap: 0.1rem; }
+.servicios-v2 li small { font-size: 0.875rem; font-weight: 400; color: var(--tinta-suave); }
+
+.fotos { margin-top: 2rem; display: grid; gap: 0.75rem; grid-template-columns: 1fr; }
+.fotos figure { min-width: 0; }
+.fotos img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 1rem; }
+.fotos figcaption { margin-top: 0.35rem; font-size: 0.8125rem; color: var(--tinta-suave); }
+
+.confianza { margin-top: 2.5rem; display: grid; gap: 1rem; }
+.tarjeta {
+  padding: 1.25rem; border-radius: 1rem; background: #fff;
+  border: 1px solid var(--linea); box-shadow: 0 1px 2px rgb(0 0 0 / 0.04);
+}
+.seccion-tinte .tarjeta { border-color: transparent; }
+.tarjeta h3 { font-family: var(--titulos); font-size: 1.25rem; font-weight: 700; color: var(--marca); line-height: 1.15; }
+.tarjeta p { margin-top: 0.5rem; }
+.distintivos { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.5rem; }
+.distintivos li {
+  padding: 0.35rem 0.75rem; border-radius: 999px; background: var(--tinte);
+  color: var(--marca); font-size: 0.9rem; font-weight: 600;
+}
+
+.resenas-cabecera { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1rem; margin-top: 0.75rem; }
+.resenas-cabecera strong { font-family: var(--titulos); font-size: 2rem; color: var(--marca); }
+.resenas { margin-top: 1.75rem; display: grid; gap: 1rem; }
+.resena { display: flex; flex-direction: column; gap: 0.6rem; }
+.resena-estrellas { color: #303D59; letter-spacing: 0.1em; }
+.resena blockquote { margin: 0; font-size: 1.0625rem; }
+.resena-autor { font-weight: 600; font-size: 0.9375rem; }
+.resenas-cierre { margin-top: 1.5rem; }
+
+.agendar-bloque { margin-top: 1.5rem; display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.boton-whatsapp { background: var(--marca); color: #fff; }
+.boton-whatsapp:hover { filter: brightness(1.15); }
+.boton-llamar { background: #fff; color: var(--marca); border: 2px solid var(--marca); }
+.boton-llamar:hover { background: var(--tinte); }
+
+.barra-contacto {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 25;
+  display: grid; grid-template-columns: 1.75fr 1fr; gap: 0.5rem; align-items: center;
+  height: calc(var(--alto-barra) + env(safe-area-inset-bottom));
+  padding: 0 0.75rem env(safe-area-inset-bottom);
+  background: rgb(255 255 255 / 0.97);
+  border-top: 1px solid var(--linea);
+  box-shadow: 0 -6px 20px rgb(0 0 0 / 0.12);
+}
+.barra-contacto.barra-una { grid-template-columns: 1fr; }
+.barra-contacto .boton { justify-content: center; min-height: 3.1rem; padding-inline: 0.6rem; font-size: 0.97rem; white-space: nowrap; gap: 0.4rem; }
+.barra-contacto .boton svg { width: 1.15rem; height: 1.15rem; flex: none; }
+.barra-contacto-oculta { visibility: hidden; pointer-events: none; }
+
+@media (max-width: 47.99rem) {
+  body:not(.barra-oculta) { padding-bottom: calc(var(--alto-barra) + env(safe-area-inset-bottom)); }
+  body:not(.barra-oculta) .pie { padding-bottom: 2.5rem; }
+  body:not(.barra-oculta) .asistente-abrir { bottom: calc(var(--alto-barra) + 0.6rem); }
+  body:not(.barra-oculta) .asistente {
+    bottom: calc(var(--alto-barra) + 0.6rem);
+    height: min(36rem, calc(100dvh - var(--alto-barra) - 1.5rem));
+  }
+  .horario-con-barra { scroll-margin-bottom: calc(var(--alto-barra) + 1rem); }
+}
+
+@media (min-width: 48rem) {
+  .barra-contacto { display: none; }
+  .confianza { grid-template-columns: 1fr 1fr; }
+  .resenas { grid-template-columns: repeat(3, 1fr); }
+  .fotos { grid-template-columns: repeat(3, 1fr); }
+}
