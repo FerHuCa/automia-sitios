@@ -1,0 +1,58 @@
+{
+  "slug": "optica-vista-optometrica-cdmx",
+  "creada": "2026-11-23",
+  "giro": "optica",
+  "giro_texto": "Óptica",
+  "nombre": "Optica Vista Optomètrica",
+  "zona": "Miguel Hidalgo, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5617741638",
+  "whatsapp": "525617741638",
+  "direccion": "Avenida Guillermo Prieto LT 7, Miguel Hidalgo, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Optica%20Vista%20Optom%C3%A8trica%2C%20Avenida%20Guillermo%20Prieto%20LT%207%20Miguel%20Hidalgo%20CDMX",
+  "calificacion": "4.9",
+  "resenas": "26",
+  "paleta": "automia",
+  "maps_consulta": "Optica Vista Optomètrica, Avenida Guillermo Prieto LT 7, Miguel Hidalgo, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "18:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "18:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "18:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "18:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "18:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}

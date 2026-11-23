@@ -1,0 +1,43 @@
+{
+  "slug": "nutriologa-maura-lozano-metepec",
+  "creada": "2026-11-23",
+  "giro": "nutricion",
+  "giro_texto": "Nutrióloga",
+  "nombre": "Nutrióloga Maura Lozano",
+  "zona": "San Mateo, Metepec",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7225498199",
+  "whatsapp": "527225498199",
+  "direccion": "Calle Melchor Ocampo 302, San Mateo, Metepec",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutri%C3%B3loga%20Maura%20Lozano%2C%20Calle%20Melchor%20Ocampo%20302%20San%20Mateo%20Metepec",
+  "calificacion": "4.9",
+  "resenas": "38",
+  "paleta": "automia",
+  "maps_consulta": "Nutrióloga Maura Lozano, Calle Melchor Ocampo 302, San Mateo, Metepec",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [],
+    "mar": [],
+    "mie": [
+      [
+        "09:00",
+        "19:30"
+      ]
+    ],
+    "jue": [],
+    "vie": [
+      [
+        "09:00",
+        "16:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "14:00"
+      ]
+    ],
+    "dom": []
+  }
+}
