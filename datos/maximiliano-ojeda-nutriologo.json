@@ -1,0 +1,48 @@
+{
+  "slug": "maximiliano-ojeda-nutriologo",
+  "creada": "2026-11-24",
+  "giro": "nutricion",
+  "giro_texto": "Nutriólogo deportivo",
+  "nombre": "Nutriólogo Deportivo Maximiliano Ojeda",
+  "zona": "Roma Norte, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7261262115",
+  "whatsapp": "527261262115",
+  "direccion": "Uruapan 7, Roma Norte, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutri%C3%B3logo%20Deportivo%20Maximiliano%20Ojeda%2C%20Uruapan%207",
+  "calificacion": "5",
+  "resenas": "29",
+  "paleta": "automia",
+  "maps_consulta": "Nutriólogo Deportivo Maximiliano Ojeda, Uruapan 7, Roma Norte, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "13:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "13:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "13:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "13:00",
+        "19:00"
+      ]
+    ],
+    "vie": [],
+    "sab": [],
+    "dom": []
+  }
+}

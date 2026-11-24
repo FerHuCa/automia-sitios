@@ -1,0 +1,58 @@
+{
+  "slug": "gut-klinik-coapa",
+  "creada": "2026-11-24",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapeuta",
+  "nombre": "Gut Klinik Fisioterapia",
+  "zona": "Ex-Hacienda Coapa, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5574510690",
+  "whatsapp": "525574510690",
+  "direccion": "Calz. del Hueso 160, Ex-Hacienda Coapa, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Gut%20Klinik%20Fisioterapia%2C%20Calz.%20del%20Hueso%20160",
+  "calificacion": "4.9",
+  "resenas": "29",
+  "paleta": "automia",
+  "maps_consulta": "Gut Klinik Fisioterapia, Calz. del Hueso 160, Ex-Hacienda Coapa, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "20:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}

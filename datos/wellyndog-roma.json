@@ -1,0 +1,58 @@
+{
+  "slug": "wellyndog-roma",
+  "creada": "2026-11-24",
+  "giro": "veterinaria",
+  "giro_texto": "Clínica veterinaria",
+  "nombre": "Clínica Veterinaria Wellyndog",
+  "zona": "Roma Norte, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5518716490",
+  "whatsapp": "525518716490",
+  "direccion": "Querétaro 20, Roma Norte, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Cl%C3%ADnica%20Veterinaria%20Wellyndog%2C%20Quer%C3%A9taro%2020",
+  "calificacion": "4.8",
+  "resenas": "51",
+  "paleta": "automia",
+  "maps_consulta": "Clínica Veterinaria Wellyndog, Querétaro 20, Roma Norte, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mar": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "mie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "jue": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "vie": [
+      [
+        "11:00",
+        "19:00"
+      ]
+    ],
+    "sab": [
+      [
+        "11:00",
+        "16:00"
+      ]
+    ],
+    "dom": []
+  }
+}

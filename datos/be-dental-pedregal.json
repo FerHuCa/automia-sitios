@@ -1,0 +1,58 @@
+{
+  "slug": "be-dental-pedregal",
+  "creada": "2026-11-24",
+  "giro": "dental",
+  "giro_texto": "Dentista",
+  "nombre": "Dra. Abril Cabrera / Be Dental",
+  "zona": "Villas del Pedregal, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5559977732",
+  "whatsapp": "525559977732",
+  "direccion": "Periférico Sur 5264, Villas del Pedregal, Coyoacán, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Dra%20Abril%20Cabrera%20Be%20Dental%2C%20Periferico%20Sur%205264%20Villas%20del%20Pedregal%20Coyoac%C3%A1n",
+  "calificacion": "4.9",
+  "resenas": "58",
+  "paleta": "automia",
+  "maps_consulta": "Dra. Abril Cabrera / Be Dental, Periférico Sur 5264, Villas del Pedregal, Coyoacán, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mar": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "mie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "jue": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "vie": [
+      [
+        "09:00",
+        "21:00"
+      ]
+    ],
+    "sab": [
+      [
+        "09:00",
+        "18:00"
+      ]
+    ],
+    "dom": []
+  }
+}
