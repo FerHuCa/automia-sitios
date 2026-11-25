@@ -310,7 +310,7 @@
   // El botón flotante se quita de en medio cuando quedaría encima del horario
   // o de la tarjeta de estado (pasa sobre todo en celular). Al seguir bajando,
   // vuelve a aparecer. "Hacer otra pregunta" siempre abre el asistente.
-  var protegidos = document.querySelectorAll(".horario, [data-estado-caja]");
+  var protegidos = document.querySelectorAll(".horario, #horario .seccion-entrada, [data-estado-caja]");
   var pendiente = false;
 
   var HOLGURA = 8; // px de aire alrededor del botón
