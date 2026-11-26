@@ -1,0 +1,58 @@
+{
+  "slug": "fisios-olivar-de-los-padres",
+  "creada": "2026-11-24",
+  "giro": "fisioterapia",
+  "giro_texto": "Fisioterapia y osteopatía",
+  "nombre": "FisiOs Fisioterapia y Osteopatía",
+  "zona": "Olivar de los Padres, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "7297447652",
+  "whatsapp": "527297447652",
+  "direccion": "Avenida Toluca 571, Local 8, Olivar de los Padres, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=FisiOs%20Fisioterapia%20y%20Osteopat%C3%ADa%2C%20Avenida%20Toluca%20571%20Local%208%20Olivar%20de%20los%20Padres",
+  "calificacion": "5",
+  "resenas": "76",
+  "paleta": "automia",
+  "maps_consulta": "FisiOs Fisioterapia y Osteopatía, Avenida Toluca 571, Local 8, Olivar de los Padres, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "mar": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "mie": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "jue": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "vie": [
+      [
+        "08:00",
+        "18:00"
+      ]
+    ],
+    "sab": [
+      [
+        "07:00",
+        "13:00"
+      ]
+    ],
+    "dom": []
+  }
+}

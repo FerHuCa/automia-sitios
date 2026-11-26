@@ -1,0 +1,48 @@
+{
+  "slug": "juan-carlos-leal-nutriologo",
+  "creada": "2026-11-24",
+  "giro": "nutricion",
+  "giro_texto": "Nutriólogo",
+  "nombre": "Nutriólogo Juan Carlos Leal",
+  "zona": "Parque San Andrés, CDMX",
+  "descripcion": "Horario, ubicación y contacto en un solo lugar.",
+  "telefono": "5526832733",
+  "whatsapp": "525526832733",
+  "direccion": "América 224, Parque San Andrés, CDMX",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Nutri%C3%B3logo%20Juan%20Carlos%20Leal%2C%20Am%C3%A9rica%20224",
+  "calificacion": "5",
+  "resenas": "27",
+  "paleta": "automia",
+  "maps_consulta": "Nutriólogo Juan Carlos Leal, América 224, Parque San Andrés, CDMX",
+  "servicios": [],
+  "preguntas": [],
+  "horario": {
+    "lun": [],
+    "mar": [],
+    "mie": [
+      [
+        "15:30",
+        "20:00"
+      ]
+    ],
+    "jue": [
+      [
+        "15:30",
+        "20:00"
+      ]
+    ],
+    "vie": [],
+    "sab": [
+      [
+        "15:30",
+        "20:00"
+      ]
+    ],
+    "dom": [
+      [
+        "10:00",
+        "20:00"
+      ]
+    ]
+  }
+}
